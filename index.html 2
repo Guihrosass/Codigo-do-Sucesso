@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código do Sucesso - Ebook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; background: white; }
+        h1, h2, h3 { text-align: center; }
+        .cta { display: block; text-align: center; background: red; color: white; padding: 15px; font-size: 18px; text-decoration: none; border-radius: 5px; margin: 20px 0; }
+        .cta:hover { background: darkred; }
+        .offer { background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; margin: 20px 0; }
+        .offer span { font-size: 22px; font-weight: bold; }
+        .testimonials { background: #fff; padding: 15px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .testimonial { display: flex; align-items: center; border-bottom: 1px solid #ddd; padding: 10px 0; }
+        .testimonial img { width: 50px; height: 50px; border-radius: 50%; margin-right: 10px; }
+        .whatsapp-btn { position: fixed; bottom: 20px; right: 20px; background: green; color: white; padding: 10px 20px; border-radius: 30px; display: flex; align-items: center; text-decoration: none; font-weight: bold; }
+        .whatsapp-btn i { margin-right: 10px; }
+        .highlight { text-align: center; padding: 20px; background: black; color: white; }
+        .vsl { text-align: center; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📖 Código do Sucesso</h1>
+        <h2>O Guia Definitivo para Mudar sua Mentalidade e Transformar sua Vida!</h2>
+        <p>Descubra o passo a passo prático para reprogramar sua mente e conquistar tudo que deseja.</p>
+        
+        <a href="#comprar" class="cta">🔥 Quero Garantir Meu Acesso Agora!</a>
+        
+        <div class="offer">
+            <h2>📌 OFERTA EXCLUSIVA</h2>
+            <p>Plano de 1 a 12 meses + Upsell de acesso ilimitado</p>
+            <p><span>De R$ 197,00 por apenas R$ 97,00!</span></p>
+        </div>
+        
+        <div class="highlight">
+            <h2>🚀 Por que a mentalidade certa é essencial?</h2>
+            <p>Ter a mentalidade correta é o primeiro passo para alcançar qualquer objetivo. Com o <strong>Código do Sucesso</strong>, você aprenderá técnicas comprovadas para destravar seu potencial e conquistar resultados extraordinários.</p>
+        </div>
+        
+        <h2>📢 Depoimentos Reais</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/50" alt="User">
+                <p><strong>Lucas:</strong> "Esse ebook mudou minha vida! Nunca pensei que minha mentalidade faria tanta diferença nos meus resultados!"</p>
+            </div>
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/50" alt="User">
+                <p><strong>Ana:</strong> "A abordagem é direta e prática. Em apenas 30 dias, minha rotina já se transformou!"</p>
+            </div>
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/50" alt="User">
+                <p><strong>Marcos:</strong> "Simplesmente sensacional! A parte dos exercícios diários realmente fazem a diferença."</p>
+            </div>
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/50" alt="User">
+                <p><strong>Beatriz:</strong> "Me ajudou a sair da estagnação e começar a agir! Recomendo muito!"</p>
+            </div>
+        </div>
+        
+        <div class="vsl">
+            <h2>🎥 Assista a VSL e descubra como transformar sua vida!</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <h3>🔒 Garantia de Qualidade</h3>
+        <p>Se em 7 dias você não ver resultado, devolvemos seu dinheiro SEM COMPLICAÇÃO!</p>
+        
+        <a href="#comprar" class="cta">🔥 Quero Começar Minha Transformação Agora!</a>
+    </div>
+    
+    <a href="https://wa.me/5592988172858" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i> (92) 98817-2858
+    </a>
+</body>
+</html>
