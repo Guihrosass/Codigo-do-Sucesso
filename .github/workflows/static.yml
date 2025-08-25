@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código do Sucesso - Ebook</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'custom-red': '#DC2626',
+                        'custom-orange': '#EA580C',
+                        'custom-yellow': '#EAB308'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #000000 100%);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #EAB308 0%, #EA580C 50%, #DC2626 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .glow-effect {
+            box-shadow: 0 0 30px rgba(234, 179, 8, 0.3);
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body class="gradient-bg text-white">
+    <!-- Header -->
+    <header class="py-6 px-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold gradient-text">Código do Sucesso</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#sobre" class="hover:text-custom-yellow transition-colors">Sobre</a>
+                <a href="#beneficios" class="hover:text-custom-yellow transition-colors">Benefícios</a>
+                <a href="#depoimentos" class="hover:text-custom-yellow transition-colors">Depoimentos</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-20 px-4">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8">
+                <h1 class="text-5xl md:text-6xl font-bold leading-tight">
+                    Descubra o <span class="gradient-text">Código do Sucesso</span>
+                </h1>
+                <p class="text-xl text-gray-300 leading-relaxed">
+                    Um método prático e seguro para alcançar seus objetivos de forma consistente. 
+                    Estratégias testadas que você pode aplicar no seu dia a dia com conforto e confiança.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-gradient-to-r from-custom-yellow to-custom-orange text-black font-bold py-4 px-8 rounded-lg hover:from-custom-orange hover:to-custom-red transition-all duration-300 glow-effect pulse-animation">
+                        GARANTIR MEU ACESSO - R$ 9,90
+                    </button>
+                    <button class="border-2 border-custom-yellow text-custom-yellow font-semibold py-4 px-8 rounded-lg hover:bg-custom-yellow hover:text-black transition-all duration-300">
+                        Visualizar Conteúdo
+                    </button>
+                </div>
+                <div class="flex items-center space-x-4 text-sm">
+                    <div class="flex text-custom-yellow">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <span class="text-gray-300">Mais de 10.000 downloads</span>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="floating">
+                    <div class="bg-gradient-to-br from-custom-red to-custom-orange p-8 rounded-2xl shadow-2xl transform rotate-3">
+                        <div class="bg-black p-6 rounded-lg">
+                            <h3 class="text-2xl font-bold gradient-text mb-4">CÓDIGO DO SUCESSO</h3>
+                            <div class="space-y-2 text-sm">
+                                <div class="flex justify-between">
+                                    <span>📈 Mindset Vencedor</span>
+                                    <span class="text-custom-yellow">✓</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>💰 Estratégias Financeiras</span>
+                                    <span class="text-custom-yellow">✓</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>🎯 Metas e Objetivos</span>
+                                    <span class="text-custom-yellow">✓</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>⚡ Produtividade Máxima</span>
+                                    <span class="text-custom-yellow">✓</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transformação Garantida -->
+    <section class="py-20 px-4 bg-gradient-to-r from-gray-900 to-black">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6">
+                    Transforme sua vida em <span class="gradient-text">30 a 90 dias</span>
+                </h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Este não é apenas um ebook comum. É um guia prático completo com um plano de ação estruturado 
+                    para você implementar mudanças reais e duradouras na sua vida.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="bg-black p-8 rounded-xl border-2 border-custom-yellow text-center">
+                    <div class="text-5xl mb-4">📋</div>
+                    <h3 class="text-2xl font-bold mb-4 text-custom-yellow">Plano de 30 Dias</h3>
+                    <p class="text-gray-300 mb-4">Primeiras mudanças visíveis</p>
+                    <ul class="text-sm text-gray-400 space-y-2">
+                        <li>✓ Organização da rotina</li>
+                        <li>✓ Definição de metas claras</li>
+                        <li>✓ Novos hábitos produtivos</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-black p-8 rounded-xl border-2 border-custom-orange text-center">
+                    <div class="text-5xl mb-4">🎯</div>
+                    <h3 class="text-2xl font-bold mb-4 text-custom-orange">Plano de 60 Dias</h3>
+                    <p class="text-gray-300 mb-4">Consolidação dos resultados</p>
+                    <ul class="text-sm text-gray-400 space-y-2">
+                        <li>✓ Aumento da produtividade</li>
+                        <li>✓ Melhoria nas finanças</li>
+                        <li>✓ Relacionamentos mais sólidos</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-black p-8 rounded-xl border-2 border-custom-red text-center">
+                    <div class="text-5xl mb-4">🚀</div>
+                    <h3 class="text-2xl font-bold mb-4 text-custom-red">Plano de 90 Dias</h3>
+                    <p class="text-gray-300 mb-4">Transformação completa</p>
+                    <ul class="text-sm text-gray-400 space-y-2">
+                        <li>✓ Nova versão de si mesmo</li>
+                        <li>✓ Objetivos alcançados</li>
+                        <li>✓ Estilo de vida elevado</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-r from-custom-yellow to-custom-orange p-8 rounded-2xl text-black text-center">
+                <h3 class="text-2xl font-bold mb-4">🎁 BÔNUS EXCLUSIVO: Planilha de Acompanhamento</h3>
+                <p class="text-lg mb-4">
+                    Receba gratuitamente nossa planilha interativa para acompanhar seu progresso dia a dia 
+                    e garantir que você está no caminho certo para a transformação.
+                </p>
+                <div class="text-sm font-semibold">
+                    Valor: R$ 29,90 • GRÁTIS para quem adquirir hoje!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section id="beneficios" class="py-20 px-4 bg-gray-900">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16">
+                O que você vai <span class="gradient-text">aprender</span>
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-black p-8 rounded-xl border border-gray-800 hover:border-custom-yellow transition-all duration-300 hover:shadow-lg">
+                    <div class="text-4xl mb-4">🎯</div>
+                    <h3 class="text-xl font-bold mb-4 text-custom-yellow">Foco e Clareza</h3>
+                    <p class="text-gray-300">Desenvolva uma mentalidade clara e organizada para tomar decisões com segurança e confiança.</p>
+                </div>
+                <div class="bg-black p-8 rounded-xl border border-gray-800 hover:border-custom-orange transition-all duration-300 hover:shadow-lg">
+                    <div class="text-4xl mb-4">⚡</div>
+                    <h3 class="text-xl font-bold mb-4 text-custom-orange">Métodos Práticos</h3>
+                    <p class="text-gray-300">Ferramentas simples e eficazes que você pode usar imediatamente no seu cotidiano.</p>
+                </div>
+                <div class="bg-black p-8 rounded-xl border border-gray-800 hover:border-custom-red transition-all duration-300 hover:shadow-lg">
+                    <div class="text-4xl mb-4">📈</div>
+                    <h3 class="text-xl font-bold mb-4 text-custom-red">Progresso Consistente</h3>
+                    <p class="text-gray-300">Um sistema confiável para evoluir de forma gradual e sustentável, sem pressa ou pressão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16">
+                O que dizem nossos <span class="gradient-text">leitores</span>
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-900 p-6 rounded-xl border border-gray-800">
+                    <div class="flex text-custom-yellow mb-4">⭐⭐⭐⭐⭐</div>
+                    <p class="text-gray-300 mb-6">"O conteúdo é bem organizado e fácil de seguir. Consegui aplicar as técnicas no meu trabalho e melhorei minha organização pessoal. Recomendo!"</p>
+                    <div class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=50&h=50&fit=crop&crop=face" alt="Ana Costa" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <div class="font-semibold">Ana Costa</div>
+                            <div class="text-sm text-gray-400">Consultora</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-xl border border-gray-800">
+                    <div class="flex text-custom-yellow mb-4">⭐⭐⭐⭐⭐</div>
+                    <p class="text-gray-300 mb-6">"Estava procurando algo prático para melhorar minha produtividade. O ebook entregou exatamente isso. As estratégias são simples e funcionam."</p>
+                    <div class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=50&h=50&fit=crop&crop=face" alt="Carlos Mendes" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <div class="font-semibold">Carlos Mendes</div>
+                            <div class="text-sm text-gray-400">Designer</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-xl border border-gray-800">
+                    <div class="flex text-custom-yellow mb-4">⭐⭐⭐⭐⭐</div>
+                    <p class="text-gray-300 mb-6">"Comprei sem muita expectativa, mas me surpreendi. O material é bem estruturado e me ajudou a ter mais clareza nos meus objetivos."</p>
+                    <div class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&h=50&fit=crop&crop=face" alt="Fernanda Lima" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <div class="font-semibold">Fernanda Lima</div>
+                            <div class="text-sm text-gray-400">Professora</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-xl border border-gray-800">
+                    <div class="flex text-custom-yellow mb-4">⭐⭐⭐⭐⭐</div>
+                    <p class="text-gray-300 mb-6">"Gostei da abordagem direta e sem enrolação. Apliquei algumas técnicas e já vejo diferença na minha rotina diária. Vale o investimento."</p>
+                    <div class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop&crop=face" alt="Roberto Silva" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <div class="font-semibold">Roberto Silva</div>
+                            <div class="text-sm text-gray-400">Vendedor</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-xl border border-gray-800">
+                    <div class="flex text-custom-yellow mb-4">⭐⭐⭐⭐⭐</div>
+                    <p class="text-gray-300 mb-6">"O que mais gostei foi a praticidade. Não é só teoria, tem exercícios que realmente funcionam. Estou mais focada nos meus projetos."</p>
+                    <div class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=50&h=50&fit=crop&crop=face" alt="Juliana Rocha" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <div class="font-semibold">Juliana Rocha</div>
+                            <div class="text-sm text-gray-400">Arquiteta</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Garantia -->
+    <section class="py-20 px-4 bg-gray-900">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="bg-black p-12 rounded-2xl border-2 border-custom-yellow">
+                <div class="text-6xl mb-6">🛡️</div>
+                <h2 class="text-3xl font-bold mb-6">Garantia de <span class="gradient-text">7 dias</span></h2>
+                <p class="text-xl text-gray-300 mb-8">
+                    Experimente o "Código do Sucesso" por 7 dias. Se não ficar satisfeito com o conteúdo, 
+                    devolvemos 100% do seu investimento, de forma simples e segura.
+                </p>
+                <div class="text-custom-yellow font-semibold">Risco zero para você!</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">
+                Comece sua jornada <span class="gradient-text">hoje mesmo</span>
+            </h2>
+            <p class="text-xl text-gray-300 mb-12">
+                Acesso imediato ao conteúdo completo, com segurança e praticidade
+            </p>
+            <div class="space-y-6">
+                <div class="text-3xl font-bold">
+                    <span class="text-gray-500 line-through">R$ 47,00</span>
+                    <span class="gradient-text ml-4">R$ 9,90</span>
+                </div>
+                <button class="bg-gradient-to-r from-custom-yellow to-custom-orange text-black font-bold py-6 px-12 rounded-lg text-xl hover:from-custom-orange hover:to-custom-red transition-all duration-300 glow-effect pulse-animation">
+                    QUERO MEU ACESSO AGORA
+                </button>
+                <div class="text-sm text-gray-400">
+                    💳 Pagamento 100% seguro • 📱 Acesso imediato
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 px-4 bg-gray-900">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16">
+                Perguntas <span class="gradient-text">Frequentes</span>
+            </h2>
+            <div class="space-y-4">
+                <div class="bg-black rounded-lg border border-gray-800">
+                    <button class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-800 transition-colors faq-toggle">
+                        <span class="text-lg font-semibold">Quando posso ativar o termo de garantia?</span>
+                        <span class="text-custom-yellow text-2xl faq-icon">+</span>
+                    </button>
+                    <div class="faq-content hidden p-6 pt-0 text-gray-300">
+                        <p>Você pode solicitar o reembolso a qualquer momento dentro dos primeiros 7 dias após a compra. Basta entrar em contato conosco através do email de suporte que está incluído no material.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-black rounded-lg border border-gray-800">
+                    <button class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-800 transition-colors faq-toggle">
+                        <span class="text-lg font-semibold">Em quanto tempo recebo o acesso após a compra?</span>
+                        <span class="text-custom-yellow text-2xl faq-icon">+</span>
+                    </button>
+                    <div class="faq-content hidden p-6 pt-0 text-gray-300">
+                        <p>O acesso é liberado imediatamente após a confirmação do pagamento. Você receberá um email com o link de download e todas as instruções necessárias em até 5 minutos.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-black rounded-lg border border-gray-800">
+                    <button class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-800 transition-colors faq-toggle">
+                        <span class="text-lg font-semibold">O pagamento é realmente seguro?</span>
+                        <span class="text-custom-yellow text-2xl faq-icon">+</span>
+                    </button>
+                    <div class="faq-content hidden p-6 pt-0 text-gray-300">
+                        <p>Sim, utilizamos plataformas de pagamento certificadas e criptografadas. Seus dados pessoais e financeiros são protegidos pelos mais altos padrões de segurança do mercado.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-black rounded-lg border border-gray-800">
+                    <button class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-800 transition-colors faq-toggle">
+                        <span class="text-lg font-semibold">E se eu não gostar, o que acontece?</span>
+                        <span class="text-custom-yellow text-2xl faq-icon">+</span>
+                    </button>
+                    <div class="faq-content hidden p-6 pt-0 text-gray-300">
+                        <p>Sem problemas! Você tem 7 dias para avaliar o conteúdo. Se não ficar satisfeito, devolvemos 100% do valor pago, de forma rápida e sem complicações.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-black rounded-lg border border-gray-800">
+                    <button class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-800 transition-colors faq-toggle">
+                        <span class="text-lg font-semibold">O ebook funciona para qualquer área profissional?</span>
+                        <span class="text-custom-yellow text-2xl faq-icon">+</span>
+                    </button>
+                    <div class="faq-content hidden p-6 pt-0 text-gray-300">
+                        <p>Sim! As estratégias são universais e podem ser aplicadas em qualquer área. O foco está em princípios fundamentais de organização, foco e produtividade que funcionam para todos os perfis profissionais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-4 bg-black">
+        <div class="max-w-6xl mx-auto text-center">
+            <div class="text-2xl font-bold gradient-text mb-4">Código do Sucesso</div>
+            <p class="text-gray-400 mb-6">Transformando vidas através do conhecimento</p>
+            <div class="flex justify-center space-x-6 text-sm text-gray-500">
+                <a href="#" class="hover:text-custom-yellow transition-colors">Política de Privacidade</a>
+                <a href="#" class="hover:text-custom-yellow transition-colors">Termos de Uso</a>
+                <a href="#" class="hover:text-custom-yellow transition-colors">Contato</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling para links internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Efeito de hover nos botões
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-2px)';
+            });
+            
+            button.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+
+        // FAQ Toggle functionality
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', function() {
+                const content = this.nextElementSibling;
+                const icon = this.querySelector('.faq-icon');
+                
+                if (content.classList.contains('hidden')) {
+                    content.classList.remove('hidden');
+                    icon.textContent = '−';
+                    icon.style.color = '#EA580C';
+                } else {
+                    content.classList.add('hidden');
+                    icon.textContent = '+';
+                    icon.style.color = '#EAB308';
+                }
+            });
+        });
+
+        // Simulação de compra
+        document.querySelectorAll('button').forEach(button => {
+            if (button.textContent.includes('GARANTIR MEU ACESSO') || button.textContent.includes('QUERO MEU ACESSO')) {
+                button.addEventListener('click', function() {
+                    alert('Redirecionando para o checkout seguro...\n\nEsta é uma demonstração. Em uma implementação real, você seria direcionado para uma plataforma de pagamento segura.');
+                });
+            }
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'970f00774553f63f',t:'MTc1NTQ5NDg0NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
